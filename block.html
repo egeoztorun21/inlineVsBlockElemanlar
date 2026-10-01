@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Block ve Inline Elemanlar</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <h1>Block vs Inline Elemanlar</h1>
+
+    <h2>1. Block (Blok) Elemanlar</h2>
+    <p>Block elemanlar her zaman <strong>yeni bir satırdan başlar</strong> ve ekranın/kabın <strong>genişliğinin tamamını (soldan sağa) kaplar</strong>. Yan yana durmazlar, alt alta dizilirler.</p>
+    
+    <div class="blok-ornek">Ben bir &lt;div&gt; etiketiyim (Blok)</div>
+    <div class="blok-ornek">Ben başka bir &lt;div&gt; etiketiyim (Blok). Görevim bittiği için alttaki satıra geçtim.</div>
+
+
+    <h2>2. Inline (Satır İçi) Elemanlar</h2>
+    <p>Inline elemanlar yeni bir satırdan <strong>başlamaz</strong>. Sadece kendi içeriği kadar yer kaplar ve <strong>yan yana</strong> dizilirler. Blok elemanların aksine bunlara genişlik (`width`) ve yükseklik (`height`) verilemez.</p>
+    
+    <p>
+        <span class="inline-ornek">Ben bir &lt;span&gt;'im (Inline)</span>
+        ve yanımda duran 
+        <a href="#" class="inline-ornek">ben de bir &lt;a&gt; (Link) etiketiyim</a>, alt satıra inmeden yan yana sıralandık.
+    </p>
+
+</body>
+</html>

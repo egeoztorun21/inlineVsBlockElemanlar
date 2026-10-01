@@ -1,0 +1,22 @@
+body {
+            font-family: Arial, sans-serif;
+            padding: 20px;
+        }
+        
+        .blok-ornek {
+            background-color: #ffcccc;
+            border: 2px dashed #ff0000;
+            margin-bottom: 10px;
+            padding: 10px;
+        }
+
+        .inline-ornek {
+            background-color: #ccffcc;
+            border: 2px dashed #00aa00;
+            padding: 5px;
+        }
+
+        h2 {
+            margin-top: 30px;
+            color: #333;
+        }
